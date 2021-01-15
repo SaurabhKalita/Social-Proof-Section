@@ -1,0 +1,159 @@
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  margin: 2% 1%;
+  padding: 2%;
+  width: 70%;
+  border-radius: 8px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  padding-right: 58%;
+}
+
+.intro-row {
+  margin: 5% 5% 0 8%;
+}
+
+.intro-para {
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  padding-right: 24%;
+}
+
+.report-guru {
+  position: relative;
+  left: 12%;
+}
+
+.best-tech {
+  position: relative;
+  left: 24%;
+}
+
+.stars {
+  padding-right: 4%;
+}
+
+
+.review-row {
+  margin: 5% 0 0 8%;
+}
+
+.review-col {
+  background-color:  hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 30%;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.profile-img {
+  width: 13%;
+  border-radius: 100%;
+  margin-right: 4%;
+  float: left;
+  margin: 5% 4% 4% 5%;
+}
+
+.name {
+  margin-bottom: 0;
+  margin-top: 5%;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+.status {
+  color: hsl(303, 10%, 53%);
+  font-weight: 600;
+  margin-bottom: 8%;
+}
+
+.feedback {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 5%;
+  margin-right: 7%;
+  margin-bottom: 7%;
+}
+
+.irene {
+  position: absolute;
+  bottom: 15%;
+  width: 27%;
+  margin-left: 0.8%;
+}
+
+.anne {
+  position: absolute;
+  bottom: 10%;
+  right: 8%;
+  width: 25%;
+}
+
+@media (max-width: 1040px) {
+  h2 {
+    padding: 5% 8% 3% 8%;
+  }
+  .intro-para {
+    padding: 0;
+    margin: 0 3% 3% 3%;
+  }
+
+  .intro-row {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .best-tech {
+    position: static;
+  }
+  .report-guru {
+    position: static;
+  }
+
+  .rating {
+    width: 98%;
+    text-align: center;
+  }
+  .five-stars {
+    padding-left: 35%;
+  }
+  .stars {
+    padding-right: 35%;
+  }
+
+  .review-row {
+    margin: 0 3%;
+  }
+  .review-col {
+    display: block;
+    width: 98%;
+    padding: 0;
+    margin: 0;
+  }
+  .irene {
+    position: static;
+
+  }
+  .anne {
+    position: static;
+  }
+
+  .profile-img {
+    margin-left: 6%;
+  }
+  .name {
+  }
+  .status {
+    margin-bottom: 12%;
+  }
+}
